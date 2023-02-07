@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Calculadora 1.0</title>
+</head>
+<body bgcolor="#ADD8E6">
+    
+
+      <h1>Calculadora</h1>
+        
+      <input type="text" id="primeironumero" size="5">
+            <select id="operadores basicos">
+              <optgroup label="basico">
+                <option VALUE=soma>+(soma)
+                <OPTION VALUE=soma> +(soma)
+                <option value="subtração"> -(subtração)
+                <option value="divisao"> /(divisao)
+                <option value="multipliação"> x(multiplicação)
+
+              </optgroup>
+
+              <optgroup label="outros">
+                <option value="raiz">raiz
+                <option value="potência"> potência
+                <option value="fatorial"> fatorial
+                <option value="Média"> Média
+                <option value="Porcentagem">  Porcentagem
+              </optgroup>
+            </select>
+
+
+      <input type="text" name="segundonumero" size="5">
+
+      <input type="button" onclick="Calcular('txtValor1', 'txtValor2')" value="Calcular">
+		  <input type="button" onclick="Limpar('txtValor1', 'txtValor2')" value="Limpar">
+		  <p id="saida">Resultado:</p>
+<hr>
+</body>
+</html>
